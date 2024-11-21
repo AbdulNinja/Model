@@ -33,7 +33,7 @@ print(f"Model trained. Mean Absolute Error on test data: ${mae:.2f}")
 
 # Step 6: User input for predictions
 def predict_house_price():
-    print("\nEnter the following details about the house:")
+    print("\nEnter the following details about the House:")
     overall_qual = int(input("Overall Quality (1-10): "))
     gr_liv_area = int(input("Above Ground Living Area (in square feet): "))
     garage_cars = int(input("Number of Cars the Garage Can Fit: "))
